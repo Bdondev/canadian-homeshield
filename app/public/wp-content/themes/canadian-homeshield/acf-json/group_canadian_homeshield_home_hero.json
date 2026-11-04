@@ -1,0 +1,123 @@
+{
+    "key": "group_canadian_homeshield_home_hero",
+    "title": "Canadian HomeShield Home — Hero",
+    "fields": [
+        {
+            "key": "field_canadian_homeshield_hero_eyebrow",
+            "label": "Eyebrow",
+            "name": "hero_eyebrow",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Optional short label above the hero heading.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": { "width": "", "class": "", "id": "" },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_canadian_homeshield_hero_title",
+            "label": "Title",
+            "name": "hero_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Use the approved headline from the mockup.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": { "width": "", "class": "", "id": "" },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_canadian_homeshield_hero_description",
+            "label": "Description",
+            "name": "hero_description",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Optional supporting copy.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": { "width": "", "class": "", "id": "" },
+            "default_value": "",
+            "maxlength": "",
+            "rows": 4,
+            "placeholder": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_canadian_homeshield_hero_cta_label",
+            "label": "CTA label",
+            "name": "hero_cta_label",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Optional primary call-to-action label.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": { "width": "", "class": "", "id": "" },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_canadian_homeshield_hero_cta_url",
+            "label": "CTA URL",
+            "name": "hero_cta_url",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "The CTA is shown only when both label and URL are set.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": { "width": "", "class": "", "id": "" },
+            "default_value": "",
+            "placeholder": "https://"
+        },
+        {
+            "key": "field_canadian_homeshield_hero_image",
+            "label": "Hero image",
+            "name": "hero_image",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Use the approved image from the mockup. Add meaningful alt text in the Media Library.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": { "width": "", "class": "", "id": "" },
+            "return_format": "id",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Fixed ACF Free fields for the Canadian HomeShield homepage hero.",
+    "show_in_rest": 0,
+    "modified": 1770000000
+}

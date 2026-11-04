@@ -1,0 +1,26 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+.envrc
+/wp-config.php
+
+# LocalWP runtime, configuration, logs, and database exports
+logs/
+**/logs/
+run/
+**/run/
+conf/
+**/conf/
+*.log
+*.sql
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.db
+wp-content/upgrade/
+
+# Dependencies and generated test artifacts
+node_modules/
+artifacts/
+.DS_Store

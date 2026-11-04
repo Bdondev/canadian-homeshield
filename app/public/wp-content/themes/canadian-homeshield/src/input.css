@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@source "../*.php";
+@source "../**/*.php";
+
+/* Provisional scaffold tokens; replace with measured mockup tokens. */
+@theme {
+  --font-sans: ui-sans-serif, system-ui, sans-serif;
+}
