@@ -1,0 +1,15 @@
+{
+  "name": "canadian-homeshield-theme",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/tailwind.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/tailwind.css --watch",
+    "test:visual": "playwright test"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "4.3.3",
+    "tailwindcss": "4.3.3",
+    "@playwright/test": "^1.56.0"
+  }
+}
