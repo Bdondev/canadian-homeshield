@@ -1,2 +1,22 @@
+# Dependencies
 node_modules/
+
+# Testing artifacts
 artifacts/
+playwright-report/
+test-results/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+.envrc
+wp-config.php
+
+# Database exports
+*.sql
+*.sql.gz
+
+# System files
+.DS_Store
+*.log

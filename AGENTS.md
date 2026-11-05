@@ -1,6 +1,6 @@
 # Canadian HomeShield Theme Rules
 
-This is the active custom theme directory. The repository-level `AGENTS.md` remains the broader project policy.
+This repository contains only the Canadian HomeShield custom WordPress theme. These instructions apply to the entire repository.
 
 - Keep this a classic PHP WordPress theme.
 - Use ACF Free only; do not use repeaters, Flexible Content, Options Pages, ACF Blocks, Elementor, or another page builder.
