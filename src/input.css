@@ -3,7 +3,86 @@
 @source "../*.php";
 @source "../**/*.php";
 
-/* Provisional scaffold tokens; replace with measured mockup tokens. */
 @theme {
-  --font-sans: ui-sans-serif, system-ui, sans-serif;
+  /* Estimated from the supplied reference screenshots. */
+  --color-hs-navy: #24186b;
+  --color-hs-yellow: #ffd200;
+  --color-hs-cream: #f8f7f3;
+  --color-hs-line: #d7d5d2;
+  --color-hs-muted: #737174;
+  --font-sans: Arial, Helvetica, sans-serif;
+  --font-display: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+}
+
+@media (max-width: 1023px) {
+  .mobile-menu-summary {
+    display: grid;
+    width: 44px;
+    height: 44px;
+    place-items: center;
+    border-radius: 9999px;
+  }
+
+  .mobile-menu-summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .mobile-menu-bars {
+    position: relative;
+    display: block;
+    width: 22px;
+    height: 19px;
+  }
+
+  .mobile-menu-bars span {
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 2px;
+    background: currentColor;
+    transform-origin: center;
+    transition: transform 180ms ease, opacity 180ms ease;
+  }
+
+  .mobile-menu-bars span:nth-child(1) { top: 1px; }
+  .mobile-menu-bars span:nth-child(2) { top: 8px; }
+  .mobile-menu-bars span:nth-child(3) { top: 15px; }
+
+  .mobile-menu[open] .mobile-menu-bars span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .mobile-menu[open] .mobile-menu-bars span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .mobile-menu[open] .mobile-menu-bars span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .mobile-menu-panel {
+    top: calc(100% + 17px);
+    right: -14px;
+    width: min(300px, calc(100vw - 40px));
+    padding: 12px;
+  }
+
+  .mobile-menu-panel nav ul {
+    display: grid;
+    gap: 0;
+  }
+
+  .mobile-menu-panel nav a {
+    display: block;
+    padding: 11px 12px;
+    border-radius: 8px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .mobile-menu-bars span {
+      transition-duration: 0.01ms;
+    }
+  }
 }

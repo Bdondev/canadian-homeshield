@@ -3,7 +3,6 @@
 ## Reference status
 
 - The repository's current theme is Canadian HomeShield under `wp-content/themes/canadian-homeshield/`.
-- This audit request names a Trofo mockup, but no Trofo mockup or approved reference image is present in the repository. Confirm whether the existing Canadian HomeShield theme should be evaluated against that mockup before further visual work.
 - Supplied references are present in `references/`, including `hero-reference.jpg` and the full-page `candian-homeshield-desktop.jpg`.
 - Supplied logo, team, testimonial, and icon assets are present in `assets/images/` and `assets/icons/`.
 - No approved font files, formal design-token file, copy deck, or image license records were found in the repository.
@@ -12,8 +11,9 @@
 
 - Theme architecture: classic PHP templates with `header.php`, `footer.php`, `front-page.php`, `index.php`, and `template-parts/`.
 - Styling: Tailwind CSS 4.3.3 CLI. Source is `src/input.css`; compiled output is `dist/tailwind.css`; the compiled file is enqueued through `wp_enqueue_style()` with a file modification version.
-- The reference visibly establishes a deep navy/purple, bright yellow, warm off-white, rounded card, and condensed display-typography direction. Exact color values and font family are not promoted to code tokens yet because they were not provided as verified specifications.
-- The current CSS still contains provisional neutral scaffold styles. It has not been replaced during verification because doing so without measured tokens would invent design specifications.
+- The reference visibly establishes a deep navy/purple, bright yellow, warm off-white, rounded card, and condensed display-typography direction.
+- `src/input.css` now contains estimated reference-derived tokens: navy `#24186b`, yellow `#ffd200`, cream `#f8f7f3`, and line `#d7d5d2`. These are estimates from the supplied screenshots, not a formal brand-token source.
+- No supplied font file exists, so the display face uses an `Arial Narrow`/system fallback stack and remains an approximation.
 
 ## Fidelity rules
 
