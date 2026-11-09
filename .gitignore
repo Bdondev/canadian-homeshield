@@ -20,3 +20,6 @@ wp-config.php
 # System files
 .DS_Store
 *.log
+
+# Local editor settings
+.vscode/
