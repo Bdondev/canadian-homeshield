@@ -1,0 +1,22 @@
+{
+    "key": "group_canadian_homeshield_home_team",
+    "title": "Canadian HomeShield Home — Team",
+    "fields": [
+        {"key":"field_canadian_homeshield_team_eyebrow","label":"Team eyebrow","name":"team_eyebrow","type":"text","default_value":"Our Team"},
+        {"key":"field_canadian_homeshield_team_heading","label":"Team heading","name":"team_heading","type":"text","default_value":"Meet Our Dedicated Team"},
+        {"key":"field_canadian_homeshield_team_member_1_alt","label":"Team member 1 image alt text","name":"team_member_1_alt","type":"text","default_value":"Canadian HomeShield team member"},
+        {"key":"field_canadian_homeshield_team_member_2_alt","label":"Team member 2 image alt text","name":"team_member_2_alt","type":"text","default_value":"Canadian HomeShield team member"},
+        {"key":"field_canadian_homeshield_team_member_3_alt","label":"Team member 3 image alt text","name":"team_member_3_alt","type":"text","default_value":"Canadian HomeShield team member"},
+        {"key":"field_canadian_homeshield_team_member_4_alt","label":"Team member 4 image alt text","name":"team_member_4_alt","type":"text","default_value":"Canadian HomeShield team member"}
+    ],
+    "location":[[{"param":"page_type","operator":"==","value":"front_page"}]],
+    "menu_order":5,
+    "position":"normal",
+    "style":"default",
+    "label_placement":"top",
+    "instruction_placement":"label",
+    "active":true,
+    "description":"Fixed ACF Free fields for the Canadian HomeShield homepage team section.",
+    "show_in_rest":0,
+    "modified":1793905922
+}

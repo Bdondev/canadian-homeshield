@@ -22,6 +22,10 @@ test('capture the current homepage', async ({ page }, testInfo) => {
   await expect(testimonials).toBeVisible();
   await expect(testimonials.locator('.testimonials-card')).toHaveCount(3);
   await expect(testimonials.locator('[data-testimonials-direction]')).toHaveCount(2);
+  const team = page.locator('#team');
+  await expect(team).toBeVisible();
+  await expect(team.locator('.team-card')).toHaveCount(4);
+  await expect(team.locator('[data-team-direction]')).toHaveCount(2);
   const aboutItems = page.locator('#about details');
   await expect(aboutItems).toHaveCount(4);
   for (let index = 0; index < await aboutItems.count(); index += 1) {

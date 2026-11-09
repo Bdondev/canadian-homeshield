@@ -35,5 +35,13 @@ function canadian_homeshield_enqueue_assets() {
 		filemtime( get_template_directory() . '/assets/js/testimonials.js' ),
 		true
 	);
+
+	wp_enqueue_script(
+		'canadian-homeshield-team',
+		get_template_directory_uri() . '/assets/js/team.js',
+		array(),
+		filemtime( get_template_directory() . '/assets/js/team.js' ),
+		true
+	);
 }
 add_action( 'wp_enqueue_scripts', 'canadian_homeshield_enqueue_assets' );

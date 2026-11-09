@@ -21,6 +21,7 @@
 - Services: responsive navy service-card carousel implemented in `template-parts/sections/services.php` using supplied service icons; the reference refrigerator photo is not available as a standalone approved asset.
 - Service Areas: responsive map-and-neighborhood section implemented in `template-parts/sections/service-areas.php` with a clean lazy-loaded Google Maps embed and fixed ACF Free fields.
 - Testimonials: responsive three-card review carousel implemented in `template-parts/sections/testimonials.php` with supplied avatars, smooth arrow navigation, disabled edge states, and progress feedback.
+- Team: responsive four-image team carousel implemented in `template-parts/sections/team.php` with supplied team imagery and smooth arrow controls.
 
 ## LocalWP compatibility
 
@@ -28,7 +29,7 @@
 - Verified site URL: `http://canadian-homeshield.local`.
 - Verified active stylesheet/template: `canadian-homeshield`.
 - Verified active plugin: Advanced Custom Fields 6.8.11.
-- Verified ACF Local JSON groups: `group_canadian_homeshield_home_hero`, `group_canadian_homeshield_home_about`, `group_canadian_homeshield_home_services`, `group_canadian_homeshield_home_service_areas`, and `group_canadian_homeshield_home_testimonials`, with fixed header, hero, form, about, services, service area, and testimonial fields.
+- Verified ACF Local JSON groups: `group_canadian_homeshield_home_hero`, `group_canadian_homeshield_home_about`, `group_canadian_homeshield_home_services`, `group_canadian_homeshield_home_service_areas`, `group_canadian_homeshield_home_testimonials`, and `group_canadian_homeshield_home_team`, with fixed header, hero, form, about, services, service area, testimonial, and team fields.
 - The ACF group is loaded from Local JSON; no stored `acf-field-group` post was returned, so sync/import status in wp-admin remains to be confirmed.
 - Do not replace LocalWP with Docker, `wp-env`, MAMP, XAMPP, or another WordPress install.
 
@@ -43,11 +44,11 @@
 
 ## Architectural problems and blockers
 
-- The supplied reference uses a branded navy/yellow palette, condensed display typography, a centered brand header, phone/CTA controls, a split hero with technician imagery and lead form, an about section with an image and expandable value list, a navy services carousel, a map-based service area section, and customer testimonial cards. Header, Hero, About, Services, Service Areas, and Testimonials are implemented.
+- The supplied reference uses a branded navy/yellow palette, condensed display typography, a centered brand header, phone/CTA controls, a split hero with technician imagery and lead form, an about section with an image and expandable value list, a navy services carousel, a map-based service area section, customer testimonial cards, and a four-image team section. Header, Hero, About, Services, Service Areas, Testimonials, and Team are implemented.
 - The right-side reference image is not supplied as a standalone asset; `team_04.png` is used as the closest supplied HVAC image fallback and remains a documented visual approximation.
 - The supplied reference's exact display font is not available as a file; the system fallback stack is an approximation.
 - The estimate form is presentational in this phase and is not connected to lead processing.
 
 ## Recommended next phase
 
-Populate/sync approved content in the ACF groups and review remaining image/font approximations against supplied references. Next section: Team.
+Populate/sync approved content in the ACF groups and review remaining image/font approximations against supplied references. Next section: Partners.
