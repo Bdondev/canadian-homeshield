@@ -1,0 +1,29 @@
+{
+    "key": "group_canadian_homeshield_home_about",
+    "title": "Canadian HomeShield Home — About",
+    "fields": [
+        {"key":"field_canadian_homeshield_about_eyebrow","label":"About eyebrow","name":"about_eyebrow","type":"text","default_value":"About Us"},
+        {"key":"field_canadian_homeshield_about_heading","label":"About heading","name":"about_heading","type":"textarea","rows":3,"default_value":"Providing Charlotte, NC With AC Repair & Installation Services Since 1975"},
+        {"key":"field_canadian_homeshield_about_cta_label","label":"About CTA label","name":"about_cta_label","type":"text","default_value":"Learn More"},
+        {"key":"field_canadian_homeshield_about_cta_url","label":"About CTA URL","name":"about_cta_url","type":"url","default_value":"#about"},
+        {"key":"field_canadian_homeshield_about_image","label":"About image","name":"about_image","type":"image","return_format":"id","library":"all","preview_size":"medium"},
+        {"key":"field_canadian_homeshield_about_item_1_title","label":"About item 1 title","name":"about_item_1_title","type":"text","default_value":"Family-Owned Excellence"},
+        {"key":"field_canadian_homeshield_about_item_1_description","label":"About item 1 description","name":"about_item_1_description","type":"textarea","rows":3,"default_value":"When an AC repair technician shows up at your door, are you filled with dread?"},
+        {"key":"field_canadian_homeshield_about_item_2_title","label":"About item 2 title","name":"about_item_2_title","type":"text","default_value":"Best Price Assurance"},
+        {"key":"field_canadian_homeshield_about_item_2_description","label":"About item 2 description","name":"about_item_2_description","type":"textarea","rows":3,"default_value":"We provide honest, upfront pricing so you know exactly what to expect before work begins."},
+        {"key":"field_canadian_homeshield_about_item_3_title","label":"About item 3 title","name":"about_item_3_title","type":"text","default_value":"Top Rated Expertise"},
+        {"key":"field_canadian_homeshield_about_item_3_description","label":"About item 3 description","name":"about_item_3_description","type":"textarea","rows":3,"default_value":"Our skilled technicians deliver dependable HVAC service backed by years of hands-on experience."},
+        {"key":"field_canadian_homeshield_about_item_4_title","label":"About item 4 title","name":"about_item_4_title","type":"text","default_value":"Best Price Assurance"},
+        {"key":"field_canadian_homeshield_about_item_4_description","label":"About item 4 description","name":"about_item_4_description","type":"textarea","rows":3,"default_value":"From routine maintenance to urgent repairs, we help keep your home comfortable year-round."}
+    ],
+    "location":[[{"param":"page_type","operator":"==","value":"front_page"}]],
+    "menu_order":1,
+    "position":"normal",
+    "style":"default",
+    "label_placement":"top",
+    "instruction_placement":"label",
+    "active":true,
+    "description":"Fixed ACF Free fields for the Canadian HomeShield homepage about section.",
+    "show_in_rest":0,
+    "modified":1793905922
+}

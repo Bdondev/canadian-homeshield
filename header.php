@@ -53,7 +53,11 @@ $custom_logo_id   = get_theme_mod( 'custom_logo' );
 				</a>
 				<a class="inline-flex items-center gap-3 rounded-full bg-hs-yellow px-5 py-3 text-[13px] font-bold text-slate-950 transition hover:brightness-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-hs-navy focus-visible:ring-offset-2" href="<?php echo esc_url( $header_cta_url ); ?>">
 					<?php echo esc_html( $header_cta_label ); ?>
-					<span class="grid h-7 w-7 place-items-center rounded-full bg-hs-navy text-base leading-none text-white" aria-hidden="true">↗</span>
+					<span class="grid h-7 w-7 place-items-center rounded-full bg-hs-navy leading-none text-white" aria-hidden="true">
+						<svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+							<path d="M6 18 18 6M10 6h8v8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+					</span>
 				</a>
 			</div>
 

@@ -45,8 +45,8 @@ $hero_title_parts = preg_split( '/(' . preg_quote( $hero_title_emphasis, '/' ) .
 
 			<div class="relative mt-10 h-[250px] sm:h-[315px] lg:mt-6 lg:h-[345px]">
 				<div class="absolute -bottom-12 -left-20 h-44 w-[620px] rotate-[8deg] rounded-[50%] border-[7px] border-[#e7e2e0] sm:-left-24 lg:-bottom-10 lg:h-52" aria-hidden="true"></div>
-				<div class="absolute -bottom-2 left-0 z-10 h-[250px] w-[72%] overflow-hidden rounded-[26px] sm:h-[315px] lg:h-[345px]">
-					<img class="h-full w-full object-cover object-center" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/team_01.png' ) ); ?>" alt="<?php esc_attr_e( 'HVAC technician servicing an outdoor unit', 'canadian-homeshield' ); ?>" fetchpriority="high">
+				<div class="absolute -bottom-2 left-0 z-10 h-[250px] w-[90%] overflow-hidden rounded-[26px] sm:h-[315px] sm:w-[72%] lg:h-[345px]">
+					<img class="h-full w-full object-cover object-center" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-left.png' ) ); ?>" alt="<?php esc_attr_e( 'HVAC technician servicing an outdoor unit', 'canadian-homeshield' ); ?>" fetchpriority="high">
 				</div>
 				<span class="absolute right-[24%] top-4 z-20 grid h-10 w-10 place-items-center rounded-full bg-white text-lg text-hs-navy shadow-sm" aria-hidden="true">❄</span>
 			</div>

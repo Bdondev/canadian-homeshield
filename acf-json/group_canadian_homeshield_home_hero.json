@@ -6,134 +6,261 @@
             "key": "field_canadian_homeshield_header_phone",
             "label": "Header phone",
             "name": "header_phone",
+            "aria-label": "",
             "type": "text",
-            "instructions": "Use the phone number shown in the approved reference/content.",
+            "instructions": "Use the phone number shown in the approved reference\/content.",
             "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
             "default_value": "1-800-858-1922",
-            "maxlength": ""
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         },
         {
             "key": "field_canadian_homeshield_header_cta_label",
             "label": "Header CTA label",
             "name": "header_cta_label",
+            "aria-label": "",
             "type": "text",
             "instructions": "Text for the header estimate button.",
             "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
             "default_value": "Get Free Estimate",
-            "maxlength": ""
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         },
         {
             "key": "field_canadian_homeshield_header_cta_url",
             "label": "Header CTA URL",
             "name": "header_cta_url",
+            "aria-label": "",
             "type": "url",
             "instructions": "The header CTA defaults to the hero estimate form.",
             "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
             "default_value": "#estimate-form",
-            "placeholder": "https://"
+            "placeholder": "https:\/\/"
         },
         {
             "key": "field_canadian_homeshield_hero_title",
             "label": "Hero title",
             "name": "hero_title",
+            "aria-label": "",
             "type": "text",
             "instructions": "Use the approved headline from the mockup.",
             "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
             "default_value": "Innovative and Personalized HVAC Solutions.",
-            "maxlength": ""
+            "maxlength": "",
+            "allow_in_bindings": 1,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         },
         {
             "key": "field_canadian_homeshield_hero_title_emphasis",
             "label": "Hero title emphasis",
             "name": "hero_title_emphasis",
+            "aria-label": "",
             "type": "text",
             "instructions": "Word to render in the reference italic style.",
             "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
             "default_value": "HVAC",
-            "maxlength": ""
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         },
         {
             "key": "field_canadian_homeshield_hero_rating_score",
             "label": "Hero rating score",
             "name": "hero_rating_score",
+            "aria-label": "",
             "type": "text",
             "instructions": "Reference rating label; do not claim a value without approved content.",
             "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
             "default_value": "5.0",
-            "maxlength": ""
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         },
         {
             "key": "field_canadian_homeshield_hero_rating_count",
             "label": "Hero rating count",
             "name": "hero_rating_count",
+            "aria-label": "",
             "type": "text",
             "instructions": "Reference review-count label; do not claim a value without approved content.",
             "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
             "default_value": "243 reviews",
-            "maxlength": ""
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         },
         {
             "key": "field_canadian_homeshield_hero_description",
             "label": "Hero description",
             "name": "hero_description",
+            "aria-label": "",
             "type": "textarea",
             "instructions": "Optional supporting copy.",
             "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
             "default_value": "",
             "maxlength": "",
             "rows": 4,
-            "new_lines": "br"
+            "new_lines": "br",
+            "placeholder": ""
         },
         {
             "key": "field_canadian_homeshield_hero_cta_label",
             "label": "Hero CTA label",
             "name": "hero_cta_label",
+            "aria-label": "",
             "type": "text",
             "instructions": "Primary hero CTA label.",
             "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
             "default_value": "Get Free Estimate",
-            "maxlength": ""
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         },
         {
             "key": "field_canadian_homeshield_hero_cta_url",
             "label": "Hero CTA URL",
             "name": "hero_cta_url",
+            "aria-label": "",
             "type": "url",
             "instructions": "The hero CTA defaults to the estimate form.",
             "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
             "default_value": "#estimate-form",
-            "placeholder": "https://"
+            "placeholder": "https:\/\/"
         },
         {
             "key": "field_canadian_homeshield_hero_form_heading",
             "label": "Hero form heading",
             "name": "hero_form_heading",
+            "aria-label": "",
             "type": "text",
             "instructions": "Heading above the estimate form.",
             "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
             "default_value": "Let Us Help You Today.",
-            "maxlength": ""
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         },
         {
             "key": "field_canadian_homeshield_hero_form_cta_label",
             "label": "Hero form CTA label",
             "name": "hero_form_cta_label",
+            "aria-label": "",
             "type": "text",
             "instructions": "Button label for the visual estimate form composition.",
             "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
             "default_value": "Get Free Estimate",
-            "maxlength": ""
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         },
         {
             "key": "field_canadian_homeshield_hero_image",
             "label": "Hero image",
             "name": "hero_image",
+            "aria-label": "",
             "type": "image",
             "instructions": "Optional approved media-library image for the right side of the hero. Add meaningful alt text in the Media Library.",
             "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
             "return_format": "id",
             "library": "all",
-            "preview_size": "medium"
+            "preview_size": "medium",
+            "min_width": 0,
+            "min_height": 0,
+            "min_size": 0,
+            "max_width": 0,
+            "max_height": 0,
+            "max_size": 0,
+            "mime_types": ""
         }
     ],
     "location": [
@@ -154,5 +281,8 @@
     "active": true,
     "description": "Fixed ACF Free fields for the Canadian HomeShield homepage header and hero.",
     "show_in_rest": 0,
-    "modified": 1770000000
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1793905922
 }

@@ -6,7 +6,7 @@
 - UI, service, contact, and social icons are now organized under `assets/icons/`.
 - `assets/fonts/` is present but currently contains no supplied font files.
 - The theme uses the native WordPress custom-logo and media APIs; it does not copy bundled default-theme assets into the custom theme.
-- WordPress default-theme assets under `twentytwentythree/` and `twentytwentyfive/` are not approved Canadian HomeShield/Trofo design assets and must not be reused without confirmation.
+- WordPress default-theme assets under `twentytwentythree/` and `twentytwentyfive/` are not approved Canadian HomeShield design assets and must not be reused without confirmation.
 
 ## Reference assets
 
