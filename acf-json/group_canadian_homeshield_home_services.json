@@ -1,0 +1,26 @@
+{
+    "key": "group_canadian_homeshield_home_services",
+    "title": "Canadian HomeShield Home — Services",
+    "fields": [
+        {"key":"field_canadian_homeshield_services_eyebrow","label":"Services eyebrow","name":"services_eyebrow","type":"text","default_value":"Our Services"},
+        {"key":"field_canadian_homeshield_services_heading","label":"Services heading","name":"services_heading","type":"textarea","rows":2,"default_value":"Top HVAC Services In Lancaster CA"},
+        {"key":"field_canadian_homeshield_services_cta_label","label":"Services CTA label","name":"services_cta_label","type":"text","default_value":"Explore Services"},
+        {"key":"field_canadian_homeshield_services_cta_url","label":"Services CTA URL","name":"services_cta_url","type":"url","default_value":"#services"},
+        {"key":"field_canadian_homeshield_service_1_title","label":"Service 1 title","name":"service_1_title","type":"text","default_value":"Gas/Furnace Heating"},
+        {"key":"field_canadian_homeshield_service_1_description","label":"Service 1 description","name":"service_1_description","type":"textarea","rows":3},
+        {"key":"field_canadian_homeshield_service_2_title","label":"Service 2 title","name":"service_2_title","type":"text","default_value":"Heater Installation"},
+        {"key":"field_canadian_homeshield_service_2_description","label":"Service 2 description","name":"service_2_description","type":"textarea","rows":3},
+        {"key":"field_canadian_homeshield_service_3_title","label":"Service 3 title","name":"service_3_title","type":"text","default_value":"Refrigeration Install"},
+        {"key":"field_canadian_homeshield_service_3_description","label":"Service 3 description","name":"service_3_description","type":"textarea","rows":3,"default_value":"He came out to my home on three occasions and each time he provided excellent and prompt service."}
+    ],
+    "location":[[{"param":"page_type","operator":"==","value":"front_page"}]],
+    "menu_order":2,
+    "position":"normal",
+    "style":"default",
+    "label_placement":"top",
+    "instruction_placement":"label",
+    "active":true,
+    "description":"Fixed ACF Free fields for the Canadian HomeShield homepage services section.",
+    "show_in_rest":0,
+    "modified":1793905922
+}
