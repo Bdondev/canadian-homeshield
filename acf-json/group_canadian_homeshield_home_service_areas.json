@@ -1,0 +1,25 @@
+{
+    "key": "group_canadian_homeshield_home_service_areas",
+    "title": "Canadian HomeShield Home — Service Areas",
+    "fields": [
+        {"key":"field_canadian_homeshield_service_area_eyebrow","label":"Service area eyebrow","name":"service_area_eyebrow","type":"text","default_value":"Service Area"},
+        {"key":"field_canadian_homeshield_service_area_heading","label":"Service area heading","name":"service_area_heading","type":"text","default_value":"Texas Neighborhoods"},
+        {"key":"field_canadian_homeshield_service_area_intro","label":"Service area intro","name":"service_area_intro","type":"text","default_value":"We Proudly Serve"},
+        {"key":"field_canadian_homeshield_service_area_map_embed_url","label":"Google Maps embed URL","name":"service_area_map_embed_url","type":"url","default_value":"https://www.google.com/maps?q=Dallas%2C+TX&output=embed"},
+        {"key":"field_canadian_homeshield_service_area_1","label":"Service area 1","name":"service_area_1","type":"text","default_value":"Deep Ellum"},
+        {"key":"field_canadian_homeshield_service_area_2","label":"Service area 2","name":"service_area_2","type":"text","default_value":"Uptown"},
+        {"key":"field_canadian_homeshield_service_area_3","label":"Service area 3","name":"service_area_3","type":"text","default_value":"Victory Park"},
+        {"key":"field_canadian_homeshield_service_area_4","label":"Service area 4","name":"service_area_4","type":"text","default_value":"Arts District"},
+        {"key":"field_canadian_homeshield_service_area_5","label":"Service area 5","name":"service_area_5","type":"text","default_value":"Lake Highlands"}
+    ],
+    "location":[[{"param":"page_type","operator":"==","value":"front_page"}]],
+    "menu_order":3,
+    "position":"normal",
+    "style":"default",
+    "label_placement":"top",
+    "instruction_placement":"label",
+    "active":true,
+    "description":"Fixed ACF Free fields for the Canadian HomeShield homepage service areas section.",
+    "show_in_rest":0,
+    "modified":1793905922
+}
