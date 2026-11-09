@@ -11,5 +11,6 @@ get_header();
 	<?php get_template_part( 'template-parts/about' ); ?>
 	<?php get_template_part( 'template-parts/sections/services' ); ?>
 	<?php get_template_part( 'template-parts/sections/service-areas' ); ?>
+	<?php get_template_part( 'template-parts/sections/testimonials' ); ?>
 </main>
 <?php get_footer(); ?>

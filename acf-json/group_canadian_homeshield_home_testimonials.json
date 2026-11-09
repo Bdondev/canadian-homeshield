@@ -1,0 +1,28 @@
+{
+    "key": "group_canadian_homeshield_home_testimonials",
+    "title": "Canadian HomeShield Home — Testimonials",
+    "fields": [
+        {"key":"field_canadian_homeshield_testimonials_eyebrow","label":"Testimonials eyebrow","name":"testimonials_eyebrow","type":"text","default_value":"Customer Reviews"},
+        {"key":"field_canadian_homeshield_testimonials_heading","label":"Testimonials heading","name":"testimonials_heading","type":"text","default_value":"What Our Customer Say About Us"},
+        {"key":"field_canadian_homeshield_testimonials_rating","label":"Testimonials rating","name":"testimonials_rating","type":"text","default_value":"5.0 (243 reviews)"},
+        {"key":"field_canadian_homeshield_testimonial_1_quote","label":"Testimonial 1 quote","name":"testimonial_1_quote","type":"textarea","rows":3,"default_value":"Francisco is a great young man! Excellent service, prompt, professional and trustworthy."},
+        {"key":"field_canadian_homeshield_testimonial_1_name","label":"Testimonial 1 name","name":"testimonial_1_name","type":"text","default_value":"Pat Cohn"},
+        {"key":"field_canadian_homeshield_testimonial_1_role","label":"Testimonial 1 role","name":"testimonial_1_role","type":"text","default_value":"Homeowner"},
+        {"key":"field_canadian_homeshield_testimonial_2_quote","label":"Testimonial 2 quote","name":"testimonial_2_quote","type":"textarea","rows":3,"default_value":"Highly recommend USA Air Conditioning. Professional service, clear communication, and a team that truly cares."},
+        {"key":"field_canadian_homeshield_testimonial_2_name","label":"Testimonial 2 name","name":"testimonial_2_name","type":"text","default_value":"Matt Gale"},
+        {"key":"field_canadian_homeshield_testimonial_2_role","label":"Testimonial 2 role","name":"testimonial_2_role","type":"text","default_value":"USA Air Conditioning"},
+        {"key":"field_canadian_homeshield_testimonial_3_quote","label":"Testimonial 3 quote","name":"testimonial_3_quote","type":"textarea","rows":3,"default_value":"People go to Google reviews so they can see something about a person. This team is worth recommending."},
+        {"key":"field_canadian_homeshield_testimonial_3_name","label":"Testimonial 3 name","name":"testimonial_3_name","type":"text","default_value":"Azadeh Vincent"},
+        {"key":"field_canadian_homeshield_testimonial_3_role","label":"Testimonial 3 role","name":"testimonial_3_role","type":"text","default_value":"Happy customer"}
+    ],
+    "location":[[{"param":"page_type","operator":"==","value":"front_page"}]],
+    "menu_order":4,
+    "position":"normal",
+    "style":"default",
+    "label_placement":"top",
+    "instruction_placement":"label",
+    "active":true,
+    "description":"Fixed ACF Free fields for the Canadian HomeShield homepage testimonials section.",
+    "show_in_rest":0,
+    "modified":1793905922
+}
