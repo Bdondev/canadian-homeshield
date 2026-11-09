@@ -1,0 +1,24 @@
+{
+    "key": "group_canadian_homeshield_home_partners",
+    "title": "Canadian HomeShield Home — Partners",
+    "fields": [
+        {"key":"field_canadian_homeshield_partners_eyebrow","label":"Partners eyebrow","name":"partners_eyebrow","type":"text","default_value":"Our Partners"},
+        {"key":"field_canadian_homeshield_partners_heading","label":"Partners heading","name":"partners_heading","type":"text","default_value":"We're Proud To Partner With The Best"},
+        {"key":"field_canadian_homeshield_partner_1_alt","label":"Partner 1 logo alt text","name":"partner_1_alt","type":"text","default_value":"Amazon"},
+        {"key":"field_canadian_homeshield_partner_2_alt","label":"Partner 2 logo alt text","name":"partner_2_alt","type":"text","default_value":"Garrett"},
+        {"key":"field_canadian_homeshield_partner_3_alt","label":"Partner 3 logo alt text","name":"partner_3_alt","type":"text","default_value":"Bassett"},
+        {"key":"field_canadian_homeshield_partner_4_alt","label":"Partner 4 logo alt text","name":"partner_4_alt","type":"text","default_value":"Delta"},
+        {"key":"field_canadian_homeshield_partner_5_alt","label":"Partner 5 logo alt text","name":"partner_5_alt","type":"text","default_value":"Caixa"},
+        {"key":"field_canadian_homeshield_partner_6_alt","label":"Partner 6 logo alt text","name":"partner_6_alt","type":"text","default_value":"Ascii"}
+    ],
+    "location":[[{"param":"page_type","operator":"==","value":"front_page"}]],
+    "menu_order":6,
+    "position":"normal",
+    "style":"default",
+    "label_placement":"top",
+    "instruction_placement":"label",
+    "active":true,
+    "description":"Fixed ACF Free fields for the Canadian HomeShield homepage partners section.",
+    "show_in_rest":0,
+    "modified":1793905922
+}

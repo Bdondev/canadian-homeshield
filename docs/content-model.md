@@ -14,6 +14,7 @@ Header, hero, and about sections are implemented homepage slices. The active the
 - Service area fields: eyebrow, heading, intro, Google Maps embed URL, and five fixed neighborhood names.
 - Testimonial fields: eyebrow, heading, rating, and fixed quote/name/role fields for three customer cards. Avatar images remain theme assets.
 - Team fields: eyebrow, heading, and fixed alt text fields for four supplied team images. Team imagery remains theme assets.
+- Partner fields: eyebrow, heading, and fixed alt text fields for six supplied partner logos. Partner logos remain theme assets.
 - The visible estimate form is a composition-only GET form; lead processing and validation are not part of this phase.
 - Do not use ACF Pro repeaters, flexible content, options pages, or ACF blocks.
 - Keep reusable CPTs/taxonomies in a companion plugin when they are genuinely required.

@@ -26,6 +26,10 @@ test('capture the current homepage', async ({ page }, testInfo) => {
   await expect(team).toBeVisible();
   await expect(team.locator('.team-card')).toHaveCount(4);
   await expect(team.locator('[data-team-direction]')).toHaveCount(2);
+  const partners = page.locator('#partners');
+  await expect(partners).toBeVisible();
+  await expect(partners.locator('.partners-track img[alt]')).toHaveCount(6);
+  await expect(partners.locator('[data-partners-direction]')).toHaveCount(2);
   const aboutItems = page.locator('#about details');
   await expect(aboutItems).toHaveCount(4);
   for (let index = 0; index < await aboutItems.count(); index += 1) {

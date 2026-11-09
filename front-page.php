@@ -13,5 +13,6 @@ get_header();
 	<?php get_template_part( 'template-parts/sections/service-areas' ); ?>
 	<?php get_template_part( 'template-parts/sections/testimonials' ); ?>
 	<?php get_template_part( 'template-parts/sections/team' ); ?>
+	<?php get_template_part( 'template-parts/sections/partners' ); ?>
 </main>
 <?php get_footer(); ?>
