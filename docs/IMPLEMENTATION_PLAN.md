@@ -24,6 +24,7 @@
 - Team: responsive four-image team carousel implemented in `template-parts/sections/team.php` with supplied team imagery and smooth arrow controls.
 - Partners: responsive partner-logo strip implemented in `template-parts/sections/partners.php` with supplied logos and smooth navigation controls.
 - CTA banner: responsive estimate/contact CTA implemented in `template-parts/sections/cta-banner.php` with fixed ACF Free fields.
+- Footer: responsive cream footer panel implemented in `footer.php` with logo, navigation links, contact details, legal links, and optional social links.
 
 ## LocalWP compatibility
 
@@ -46,7 +47,7 @@
 
 ## Architectural problems and blockers
 
-- The supplied reference uses a branded navy/yellow palette, condensed display typography, a centered brand header, phone/CTA controls, a split hero with technician imagery and lead form, an about section with an image and expandable value list, a navy services carousel, a map-based service area section, customer testimonial cards, a four-image team section, a partner-logo strip, and a CTA banner. Header, Hero, About, Services, Service Areas, Testimonials, Team, Partners, and CTA Banner are implemented.
+- The supplied reference uses a branded navy/yellow palette, condensed display typography, a centered brand header, phone/CTA controls, a split hero with technician imagery and lead form, an about section with an image and expandable value list, a navy services carousel, a map-based service area section, customer testimonial cards, a four-image team section, a partner-logo strip, a CTA banner, and a cream footer. Header, Hero, About, Services, Service Areas, Testimonials, Team, Partners, CTA Banner, and Footer are implemented.
 - The right-side reference image is not supplied as a standalone asset; `team_04.png` is used as the closest supplied HVAC image fallback and remains a documented visual approximation.
 - The supplied reference's exact display font is not available as a file; the system fallback stack is an approximation.
 - The estimate form is presentational in this phase and is not connected to lead processing.

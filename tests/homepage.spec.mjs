@@ -34,6 +34,10 @@ test('capture the current homepage', async ({ page }, testInfo) => {
   await expect(cta).toBeVisible();
   await expect(cta.locator('input[type="email"]')).toBeVisible();
   await expect(cta.locator('button[type="submit"]')).toBeVisible();
+  const footer = page.locator('footer[aria-labelledby="footer-title"]');
+  await expect(footer).toBeVisible();
+  await expect(footer.locator('a[href*="#services"]')).toHaveCount(5);
+  await expect(footer.locator('a[href*="mailto:"]')).toBeVisible();
   const aboutItems = page.locator('#about details');
   await expect(aboutItems).toHaveCount(4);
   for (let index = 0; index < await aboutItems.count(); index += 1) {
