@@ -5,7 +5,7 @@
         {"key":"field_canadian_homeshield_about_eyebrow","label":"About eyebrow","name":"about_eyebrow","type":"text","default_value":"About Us"},
         {"key":"field_canadian_homeshield_about_heading","label":"About heading","name":"about_heading","type":"textarea","rows":3,"default_value":"Providing Charlotte, NC With AC Repair & Installation Services Since 1975"},
         {"key":"field_canadian_homeshield_about_cta_label","label":"About CTA label","name":"about_cta_label","type":"text","default_value":"Learn More"},
-        {"key":"field_canadian_homeshield_about_cta_url","label":"About CTA URL","name":"about_cta_url","type":"url","default_value":"#about"},
+        {"key":"field_canadian_homeshield_about_cta_url","label":"About CTA URL","name":"about_cta_url","type":"text","default_value":"#about"},
         {"key":"field_canadian_homeshield_about_image","label":"About image","name":"about_image","type":"image","return_format":"id","library":"all","preview_size":"medium"},
         {"key":"field_canadian_homeshield_about_item_1_title","label":"About item 1 title","name":"about_item_1_title","type":"text","default_value":"Family-Owned Excellence"},
         {"key":"field_canadian_homeshield_about_item_1_description","label":"About item 1 description","name":"about_item_1_description","type":"textarea","rows":3,"default_value":"When an AC repair technician shows up at your door, are you filled with dread?"},

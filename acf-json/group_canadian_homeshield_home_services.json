@@ -5,7 +5,7 @@
         {"key":"field_canadian_homeshield_services_eyebrow","label":"Services eyebrow","name":"services_eyebrow","type":"text","default_value":"Our Services"},
         {"key":"field_canadian_homeshield_services_heading","label":"Services heading","name":"services_heading","type":"textarea","rows":2,"default_value":"Top HVAC Services In Lancaster CA"},
         {"key":"field_canadian_homeshield_services_cta_label","label":"Services CTA label","name":"services_cta_label","type":"text","default_value":"Explore Services"},
-        {"key":"field_canadian_homeshield_services_cta_url","label":"Services CTA URL","name":"services_cta_url","type":"url","default_value":"#services"},
+        {"key":"field_canadian_homeshield_services_cta_url","label":"Services CTA URL","name":"services_cta_url","type":"text","default_value":"#services"},
         {"key":"field_canadian_homeshield_service_1_title","label":"Service 1 title","name":"service_1_title","type":"text","default_value":"Gas/Furnace Heating"},
         {"key":"field_canadian_homeshield_service_1_description","label":"Service 1 description","name":"service_1_description","type":"textarea","rows":3},
         {"key":"field_canadian_homeshield_service_2_title","label":"Service 2 title","name":"service_2_title","type":"text","default_value":"Heater Installation"},
