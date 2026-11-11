@@ -16,10 +16,13 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 function canadian_homeshield_primary_menu_fallback( $args ) {
 	$menu_class = is_object( $args ) ? $args->menu_class : ( $args['menu_class'] ?? '' );
+	$blog_url   = get_post_type_archive_link( 'post' );
+	$blog_url   = $blog_url ? $blog_url : home_url( '/blog/' );
 	$items = array(
 		array( 'label' => __( 'Home', 'canadian-homeshield' ), 'url' => home_url( '/' ), 'arrow' => false ),
 		array( 'label' => __( 'Services', 'canadian-homeshield' ), 'url' => home_url( '/#services' ), 'arrow' => true ),
 		array( 'label' => __( 'Service Areas', 'canadian-homeshield' ), 'url' => home_url( '/#service-areas' ), 'arrow' => true ),
+		array( 'label' => __( 'Blog', 'canadian-homeshield' ), 'url' => $blog_url, 'arrow' => false ),
 		array( 'label' => __( 'Contact', 'canadian-homeshield' ), 'url' => home_url( '/#contact' ), 'arrow' => false ),
 	);
 

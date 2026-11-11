@@ -23,6 +23,7 @@
 - Testimonials: responsive three-card review carousel implemented in `template-parts/sections/testimonials.php` with supplied avatars, smooth arrow navigation, disabled edge states, and progress feedback.
 - Team: responsive four-image team carousel implemented in `template-parts/sections/team.php` with supplied team imagery and smooth arrow controls.
 - Partners: responsive partner-logo strip implemented in `template-parts/sections/partners.php` with supplied logos and smooth navigation controls.
+- CTA banner: responsive estimate/contact CTA implemented in `template-parts/sections/cta-banner.php` with fixed ACF Free fields.
 
 ## LocalWP compatibility
 
@@ -45,11 +46,11 @@
 
 ## Architectural problems and blockers
 
-- The supplied reference uses a branded navy/yellow palette, condensed display typography, a centered brand header, phone/CTA controls, a split hero with technician imagery and lead form, an about section with an image and expandable value list, a navy services carousel, a map-based service area section, customer testimonial cards, a four-image team section, and a partner-logo strip. Header, Hero, About, Services, Service Areas, Testimonials, Team, and Partners are implemented.
+- The supplied reference uses a branded navy/yellow palette, condensed display typography, a centered brand header, phone/CTA controls, a split hero with technician imagery and lead form, an about section with an image and expandable value list, a navy services carousel, a map-based service area section, customer testimonial cards, a four-image team section, a partner-logo strip, and a CTA banner. Header, Hero, About, Services, Service Areas, Testimonials, Team, Partners, and CTA Banner are implemented.
 - The right-side reference image is not supplied as a standalone asset; `team_04.png` is used as the closest supplied HVAC image fallback and remains a documented visual approximation.
 - The supplied reference's exact display font is not available as a file; the system fallback stack is an approximation.
 - The estimate form is presentational in this phase and is not connected to lead processing.
 
 ## Recommended next phase
 
-Populate/sync approved content in the ACF groups and review remaining image/font approximations against supplied references. Next section: CTA banner.
+Populate/sync approved content in the ACF groups and review remaining image/font approximations against supplied references. Next phase: final content and visual QA.

@@ -1,0 +1,20 @@
+{
+    "key": "group_canadian_homeshield_home_cta",
+    "title": "Canadian HomeShield Home — CTA Banner",
+    "fields": [
+        {"key":"field_canadian_homeshield_cta_heading","label":"CTA heading","name":"cta_heading","type":"text","default_value":"Get The Best Heating & Air Conditioning Services"},
+        {"key":"field_canadian_homeshield_cta_label","label":"CTA button label","name":"cta_label","type":"text","default_value":"Get Estimate"},
+        {"key":"field_canadian_homeshield_cta_url","label":"CTA button URL","name":"cta_url","type":"text","default_value":"#estimate-form"},
+        {"key":"field_canadian_homeshield_cta_email_placeholder","label":"CTA email placeholder","name":"cta_email_placeholder","type":"text","default_value":"Email Address"}
+    ],
+    "location":[[{"param":"page_type","operator":"==","value":"front_page"}]],
+    "menu_order":7,
+    "position":"normal",
+    "style":"default",
+    "label_placement":"top",
+    "instruction_placement":"label",
+    "active":true,
+    "description":"Fixed ACF Free fields for the Canadian HomeShield homepage CTA banner.",
+    "show_in_rest":0,
+    "modified":1793905922
+}

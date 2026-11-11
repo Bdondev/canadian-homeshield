@@ -30,6 +30,10 @@ test('capture the current homepage', async ({ page }, testInfo) => {
   await expect(partners).toBeVisible();
   await expect(partners.locator('.partners-track img[alt]')).toHaveCount(6);
   await expect(partners.locator('[data-partners-direction]')).toHaveCount(2);
+  const cta = page.locator('#contact-cta');
+  await expect(cta).toBeVisible();
+  await expect(cta.locator('input[type="email"]')).toBeVisible();
+  await expect(cta.locator('button[type="submit"]')).toBeVisible();
   const aboutItems = page.locator('#about details');
   await expect(aboutItems).toHaveCount(4);
   for (let index = 0; index < await aboutItems.count(); index += 1) {
@@ -55,6 +59,9 @@ test('capture the current homepage', async ({ page }, testInfo) => {
     const mobileMenu = page.locator('header details');
     await mobileMenu.locator('summary').click();
     await expect(mobileMenu.locator('nav')).toBeVisible();
+    const blogLink = mobileMenu.locator('nav a', { hasText: 'Blog' });
+    await expect(blogLink).toHaveText('Blog');
+    await expect(blogLink).toHaveAttribute('href', /^https?:\/\//);
     await mobileMenu.locator('a[href="#estimate-form"]').click();
     await expect(page.locator('#estimate-form')).toBeInViewport();
     await page.evaluate(() => window.scrollTo(0, 0));
